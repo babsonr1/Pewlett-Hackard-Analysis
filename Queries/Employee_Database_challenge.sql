@@ -1,3 +1,4 @@
+--Challenge One SQL Code
 select e.emp_no,
 	e.first_name,
 	e.last_name,
@@ -32,3 +33,21 @@ from unique_titles as u
 	where (u.to_date = '9999-01-01')
 group by ti.title
 order by count(u.emp_no) desc;
+
+--Challenge Two SQL Code
+select distinct on (e.emp_no) e.emp_no,
+	e.first_name,
+	e.last_name,
+	e.birth_date,
+	de.from_date,
+	de.to_date,
+	ti.title
+into mentorship_eligibility
+from employees as e
+	inner join dept_emp as de
+		on(e.emp_no = de.emp_no)
+	inner join titles as ti
+		on(e.emp_no = ti.emp_no)
+	where (e.birth_date between '1965-01-01' and '1965-12-31')
+	and (de.to_date = '9999-01-01')
+order by (e.emp_no)
