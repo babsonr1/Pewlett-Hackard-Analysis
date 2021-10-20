@@ -26,3 +26,6 @@ Subsequently, in order to logically mentor new hirees, the CEO ordered a mentors
 49,088 people in this company could potentially retire in the next couple of years. 17,726 are senior engineers, 16,696 are senior staff, 6,311 are engineers, 5,116 are staff, 2,505 are technique leaders, 732 are assistant engineers, and 2 are managers. It is very difficult to hire a large amount of higher position jobs, as people might not be trained for the positions, so, most likely, people would be promoted and more people would be needed for the lower positions than it appears.
 
 There are 34 people eligible to mentor in the assistant engineer position and none that are managers. These are the lowest two categories of potential mentors. Although the other categories have more people available to mentor, there are not nearly enough people to mentor everyone, assuming all of the retirees do, in fact, retire.
+![Percent Retired Covered](https://user-images.githubusercontent.com/85752084/138162293-46b4c491-c3dd-4af1-a424-73a17fee19f8.PNG)
+
+The percent coverage is shown in the chart that has a maximum of roughly 0.07 or 7%. This means hardly any positions will be covered if everyone that was a possibility does decide to retire.
